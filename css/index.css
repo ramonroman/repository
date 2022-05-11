@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.light {
+    background-color:#D3D3D3;
+    color:#FFFAFA
+}
+
+#objetivo h2.obj{
+    font-size: 1.5em;
+    color: black;
+}
+
+.dark {
+    background-color:#A9A9A9;
+    color:#FFFAFA
+}
+
+header li {
+    display: inline-block;
+}
+
+footer li{
+    display: inline-block;
+}

@@ -2,17 +2,58 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+header{
+    background-color: #D3D3D3;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+header{
+    border-bottom: 1px solid rgb(121, 119, 119);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: right;
+}
+
 h1 {
     font-size: 2em;
+    text-align: center;
 }
+
+.apresentacao{
+    background-color: rgb(134, 136, 134);
+    padding-top: 5em;
+    padding-right: 5em;
+    border-top:3px solid silver;
+    border-bottom:1px solid rgb(121, 119, 119); 
+}
+
+.apresentacao img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.apresentacao h2{
+    font-weight: bold;
+}
+
 
 .light {
     background-color:#D3D3D3;
     color:#FFFAFA
 }
 
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
 #objetivo h2.obj{
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: black;
 }
 
@@ -21,10 +62,47 @@ h1 {
     color:#FFFAFA
 }
 
-header li {
-    display: inline-block;
+
+footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    border-top:3px solid silver;
+    border-bottom:1px solid rgb(121, 119, 119); 
 }
 
 footer li{
     display: inline-block;
+    margin-left: 2em;   
+}
+
+.black{
+    background-color: black;
+    color:snow
+}
+
+.contatos{
+    background-color:#D3D3D3 ;
+}
+
+.contatos p{
+    margin-bottom: 1em;
+}
+
+.contatos h2{
+    font-weight: bold;
+    margin-bottom: 1em;
+
+}
+
+.contatos li{
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+#copyright{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    background-color: black;
 }

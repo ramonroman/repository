@@ -1,3 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix{
+    clear:both
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;  
+}
+
 body {
     font-family: Helvetica, sans-serif;
 }
@@ -26,14 +39,15 @@ h1 {
 .apresentacao{
     background-color: rgb(134, 136, 134);
     padding-top: 5em;
-    padding-right: 5em;
+    padding-right: 3em;
     border-top:3px solid silver;
-    border-bottom:1px solid rgb(121, 119, 119); 
-}
+  }
+
 
 .apresentacao img{
     width: 300px;
     height: 300px;
+    padding-bottom: 3em;
     
 }
 
@@ -41,44 +55,34 @@ h1 {
     font-weight: bold;
 }
 
-
-.light {
-    background-color:#D3D3D3;
-    color:#FFFAFA
+.rosto{
+    float:left;
+    width: 100%;
+    vertical-align: baseline;
+    
 }
 
-.container {
-    padding-right: 10%;
-    padding-left: 10%;
+.bio{
+    margin-left: 20%;
+    padding-bottom: 14em ;
+    
 }
 
-#objetivo h2.obj{
-    font-size: 1.3em;
-    color: black;
+section img{
+    width: 100%;
+    max-width: 300px;
 }
-
-.dark {
-    background-color:#A9A9A9;
-    color:#FFFAFA
-}
-
 
 footer{
     padding-top: 2em;
     padding-bottom: 2em;
     text-align: center;
     border-top:3px solid silver;
-    border-bottom:1px solid rgb(121, 119, 119); 
 }
 
 footer li{
     display: inline-block;
     margin-left: 2em;   
-}
-
-.black{
-    background-color: black;
-    color:snow
 }
 
 .contatos{
@@ -92,6 +96,7 @@ footer li{
 .contatos h2{
     font-weight: bold;
     margin-bottom: 1em;
+    margin-top: 1em;
 
 }
 
@@ -100,9 +105,15 @@ footer li{
     font-weight: 600;
 }
 
+footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 #copyright{
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: bolder;
     background-color: black;
+    font-size: 10px;
 }

@@ -1,0 +1,107 @@
+.container {
+    padding-right: 10%;
+    padding-left: 10%;  
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    background-color: #D3D3D3;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+header{
+    border-bottom: 1px solid rgb(121, 119, 119);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: right;
+}
+
+h1 {
+    font-size: 2em;
+    
+}
+
+.apresentacao{
+    background-color: rgb(134, 136, 134);
+    padding-top: 5em;
+    padding-right: 3em;
+    border-top:3px solid silver;
+  }
+
+
+  
+.rosto img{
+    display:block;
+    float:left;
+    width: 100%;
+    max-width: 300px;
+    padding-bottom: 3em;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 3em;
+    
+}
+
+.bio{
+    margin-left: 20%;
+    padding-bottom: 14em ;
+    text-align: justify;
+    display: block; 
+}
+
+.bio h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    border-top:3px solid silver;
+}
+
+footer li{
+    display: inline-block;
+    margin-left: 2em;   
+}
+
+.contatos{
+    background-color:#D3D3D3 ;
+}
+
+.contatos p{
+    margin-bottom: 1em;
+}
+
+.contatos h2{
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+
+.contatos li{
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#copyright{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    background-color: black;
+    font-size: 10px;
+}

@@ -1,0 +1,13 @@
+.wrapper{
+height: 200px;
+background: rgb(180, 178, 178);
+}
+
+section img{
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    margin-top: 10px;
+    margin-left:50px
+
+}

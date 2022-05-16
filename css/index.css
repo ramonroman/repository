@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 .clearfix{
@@ -7,113 +7,91 @@
 }
 
 .container {
-    padding-right: 10%;
-    padding-left: 10%;  
+    padding-right: 5%;
+    padding-left: 5%;  
 }
 
-body {
-    font-family: Helvetica, sans-serif;
-}
-
-header{
-    background-color: #D3D3D3;
-}
-
-header li {
+header li{
     display: inline-block;
     margin-left: 3em;
+    margin-top: 10px;
+    font-weight: bolder;
 }
 
-header{
-    border-bottom: 1px solid rgb(121, 119, 119);
-    padding-top: 1em;
-    padding-bottom: 1em;
+.wrapper_header{
+    height: 40px;
+    border: 1px solid darkgray;
     text-align: right;
+    background-color: lightgray;
 }
 
-h1 {
-    font-size: 2em;
-    text-align: center;
+.wrapper_body{
+    position: relative;
+    height: 689px;
+    background-color: silver;
+    border:1px solid gray;
 }
 
-.apresentacao{
-    background-color: rgb(134, 136, 134);
-    padding-top: 5em;
-    padding-right: 3em;
-    border-top:3px solid silver;
-  }
-
-
-.apresentacao img{
-    width: 300px;
-    height: 300px;
-    padding-bottom: 3em;
-    
+.wrapper_body img{
+    display: block;
+    margin-top: 200px;
+    margin-left: 100px;
 }
 
-.apresentacao h2{
+.wrapper_body > .bio > h1{
+    font-size: 50px;
+    display: block;
+    margin-top: 300px;
     font-weight: bold;
 }
 
-.rosto{
-    float:left;
-    width: 100%;
-    vertical-align: baseline;
-    
+.wrapper_body .bio p{
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 10px;
 }
 
-.bio{
-    margin-left: 20%;
-    padding-bottom: 14em ;
-    
-}
-
-section img{
-    width: 100%;
+.rosto img{
+    float: left;
     max-width: 300px;
+    margin-right: 200px;
 }
 
-footer{
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: center;
-    border-top:3px solid silver;
-}
-
-footer li{
-    display: inline-block;
-    margin-left: 2em;   
-}
-
-.contatos{
-    background-color:#D3D3D3 ;
-}
-
-.contatos p{
-    margin-bottom: 1em;
-}
-
-.contatos h2{
-    font-weight: bold;
-    margin-bottom: 1em;
-    margin-top: 1em;
-
+.wrapper_bottom{
+    position: relative;
+    height: 135px;
+    background-color: lightgray;
+    border: solid 1px gray;
 }
 
 .contatos li{
+    display: inline-block;
+    margin-left: 3em;
     margin-top: 1em;
-    font-weight: 600;
+    padding-bottom:1em ;
 }
 
-footer{
-    padding-top: 1em;
-    padding-bottom: 1em;
+.contatos h2{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.contatos p{
+    margin-top: 1px;
+    padding-top: 10px;
+}
+
+.wrapper_bottom footer{
+    position: relative;
+    text-align: center;
+    margin-left: 2em;   
 }
 
 #copyright{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
+    height: 30px;
     background-color: black;
-    font-size: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 0.5em ;    
 }
